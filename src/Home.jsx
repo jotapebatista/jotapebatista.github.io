@@ -14,8 +14,8 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className=" bg-white px-10 dark:bg-gray-800 md:px-20 lg:px-40 transition duration-700 min-h-screen">
-        <nav className="py-10 mb-12 flex justify-between dark:text-white" >
+      <main className=" bg-white dark:bg-gray-800 transition duration-700 min-h-screen">
+        <nav className="py-10 mb-12 flex px-10 justify-between dark:text-white md:px-20" >
           <ul className="flex ml-auto">
             <li className='px-5'>
               <a className='hover:text-teal-600 transition duration-300' href="#">&lt; João Batista /&gt;</a>
@@ -44,7 +44,7 @@ export default function Home() {
             <a className='hover:text-teal-600' href='https://www.linkedin.com/in/jotapebatista/' rel='noreferrer' target="_blank"><AiFillLinkedin /> </a>
             <a className='hover:text-teal-600' href='mailto:joao-oliveirabatista@hotmail.com"' rel='noreferrer' target="_blank"><AiFillMail /> </a>
           </div>
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80  overflow-hidden mt-20">
             <img src={deved} width={350} alt='yup, thats me' className='mx-auto' />
           </div>
         </div>
